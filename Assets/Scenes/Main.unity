@@ -1757,7 +1757,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 932c5f66c96b0af429b21b794ecd5af7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onCam: 0
+  onCam: 1
   oneIsTaken: 0
   timer: 5
 --- !u!1001 &1736891883
@@ -2312,6 +2312,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1916202449}
     m_Modifications:
+    - target: {fileID: 1717948995125203616, guid: cac6cb438170a7d4f90c3b09c63f8b66,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2361317947971983030, guid: cac6cb438170a7d4f90c3b09c63f8b66,
         type: 3}
       propertyPath: m_RootOrder
@@ -2365,6 +2370,11 @@ PrefabInstance:
     - target: {fileID: 2361317947971983030, guid: cac6cb438170a7d4f90c3b09c63f8b66,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6730582952310123099, guid: cac6cb438170a7d4f90c3b09c63f8b66,
+        type: 3}
+      propertyPath: isOn
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7756837313403066041, guid: cac6cb438170a7d4f90c3b09c63f8b66,
